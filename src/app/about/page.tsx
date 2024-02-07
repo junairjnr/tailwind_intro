@@ -2,18 +2,19 @@
 import React from "react";
 import Leftmenu from "@/components/leftmenu";
 import Head from "@/components/head";
-
 const Home = () => {
-  
+
   return (
     <div>
-      <div className="h-screen">
-        <Head /> 
-        <div className="w-screen h-full flex bg-slate-900">
-          <Leftmenu />
-          <div className="h-full flex items-center justify-center w-5/6 text-center cursor-pointer">
-            <div className="text-red-500 h-full p-2 cursor-pointer ">
-              WELCOME TO MAIN PAGE!!
+      <div className=" h-screen">
+     <Head/>
+
+        <div className="w-screen h-full flex  bg-slate-900 ">
+        <Leftmenu/>
+
+          <div className="h-full flex items-center justify-center w-5/6 text-center cursor-pointer ">
+            <div className="text-orange-500 h-full p-2 cursor-pointer ">
+              ABOUT US !!
             </div>
           </div>
         </div>
